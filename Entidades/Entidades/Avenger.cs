@@ -9,6 +9,9 @@ namespace Entidades
     public class Avenger : Personaje
     {
         private EEquipamiento equipamiento;
+        /// <summary>
+        /// Propiedad de solo lectura, devuelve string con el cnombre del Avenger y una frase.
+        /// </summary>
         public override string Nombre
         {
             get
@@ -22,7 +25,10 @@ namespace Entidades
         {
             this.equipamiento = equipo;
         }
-
+        /// <summary>
+        /// Sobreescribo el metodo para devolver nombre + info de la clase personaje + equipamiento del Personaje Avenger
+        /// </summary>
+        /// <returns>Devuelve un string con toda la data del Personaje Avenger</returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();

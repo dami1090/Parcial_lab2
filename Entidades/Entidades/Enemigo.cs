@@ -9,6 +9,9 @@ namespace Entidades
     public class Enemigo : Personaje
     {
         private string objetivo;
+        /// <summary>
+        /// Propiedad de solo lectura, devuelve string con el cnombre del Personaje Enemigo y una frase.
+        /// </summary>
         public override string Nombre
         {
             get
@@ -22,7 +25,10 @@ namespace Entidades
         {
             this.objetivo = objetivo;
         }
-
+        /// <summary>
+        /// Sobreescribo el metodo para devolver nombre + info de la clase personaje + objetivo del Personaje Enemigo
+        /// </summary>
+        /// <returns>Devuelve un string con toda la data del Personaje Enemigo</returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();

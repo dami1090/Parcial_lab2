@@ -9,12 +9,13 @@ namespace Entidades
     public static class Marvel
     {
         private static List<Personaje> listaPersonajes;
-
         static Marvel()
         {
             Marvel.listaPersonajes = new List<Personaje>();
         }
-
+        /// <summary>
+        /// Propiedad de solo escritura, para poder agregar personajes a mi lista de personajes.
+        /// </summary>
         public static Personaje Personaje
         {
             set
@@ -22,7 +23,10 @@ namespace Entidades
                 Marvel.listaPersonajes = Marvel.listaPersonajes + (Personaje)value;
             }
         }
-
+        /// <summary>
+        /// Este metodo recorre toda la lista de pesonajes, y dependiendo el tipo de este mismo, le agrega el separador correspondiente.
+        /// </summary>
+        /// <returns>Un string de todos los personajes en la lista,con toda su info y con su separador</returns>
         public static string MostrarInformacion()
         {
             StringBuilder sb = new StringBuilder();
@@ -42,6 +46,5 @@ namespace Entidades
             }
             return sb.ToString();
         }
-
     }
 }
