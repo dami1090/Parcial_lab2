@@ -47,6 +47,7 @@ namespace FormParcial
             // 
             this.rtbPersonajes.Location = new System.Drawing.Point(12, 164);
             this.rtbPersonajes.Name = "rtbPersonajes";
+            this.rtbPersonajes.ReadOnly = true;
             this.rtbPersonajes.Size = new System.Drawing.Size(776, 454);
             this.rtbPersonajes.TabIndex = 1;
             this.rtbPersonajes.Text = "";
@@ -61,6 +62,7 @@ namespace FormParcial
             this.Controls.Add(this.btnMostrar);
             this.Name = "FormularioPrincipal";
             this.Text = "Roberto Damian Lago 2C";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormularioPrincipal_FormClosing);
             this.Load += new System.EventHandler(this.FormularioPrincipal_Load);
             this.ResumeLayout(false);
 

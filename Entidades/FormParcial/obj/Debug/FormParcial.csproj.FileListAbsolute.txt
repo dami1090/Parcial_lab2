@@ -11,3 +11,16 @@ D:\UTN\LAB II\Parcial1\Entidades\FormParcial\obj\Debug\FormParcial.csproj.CoreCo
 D:\UTN\LAB II\Parcial1\Entidades\FormParcial\obj\Debug\FormParcial.csproj.CopyComplete
 D:\UTN\LAB II\Parcial1\Entidades\FormParcial\obj\Debug\FormParcial.exe
 D:\UTN\LAB II\Parcial1\Entidades\FormParcial\obj\Debug\FormParcial.pdb
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\bin\Debug\FormParcial.exe.config
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\bin\Debug\FormParcial.exe
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\bin\Debug\FormParcial.pdb
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\bin\Debug\Entidades.dll
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\bin\Debug\Entidades.pdb
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\obj\Debug\FormParcial.csprojAssemblyReference.cache
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\obj\Debug\FormParcial.FormularioPrincipal.resources
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\obj\Debug\FormParcial.Properties.Resources.resources
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\obj\Debug\FormParcial.csproj.GenerateResource.cache
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\obj\Debug\FormParcial.csproj.CoreCompileInputs.cache
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\obj\Debug\FormParcial.csproj.CopyComplete
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\obj\Debug\FormParcial.exe
+D:\UTN\LAB II\Parcial_lab2\Entidades\FormParcial\obj\Debug\FormParcial.pdb

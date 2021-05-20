@@ -40,5 +40,14 @@ namespace FormParcial
         {
             rtbPersonajes.Text = Marvel.MostrarInformacion();
         }
+
+        private void FormularioPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("¿Esta seguro que quiere cerrar la aplicacion?", "El mundo sera derrotado",
+                                MessageBoxButtons.YesNo,
+                                MessageBoxIcon.Question,
+                                MessageBoxDefaultButton.Button2) == DialogResult.No)
+                e.Cancel = true;
+        }
     }
 }
