@@ -72,6 +72,7 @@ namespace Entidades
                 if ((p.nombre == personaje.nombre) && (p.GetType() == personaje.GetType()))
                 {
                     result = true;
+                    break;
                 }
             }
             return result;

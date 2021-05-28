@@ -60,7 +60,11 @@ namespace FormParcial
             this.ClientSize = new System.Drawing.Size(800, 630);
             this.Controls.Add(this.rtbPersonajes);
             this.Controls.Add(this.btnMostrar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormularioPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Roberto Damian Lago 2C";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormularioPrincipal_FormClosing);
             this.Load += new System.EventHandler(this.FormularioPrincipal_Load);

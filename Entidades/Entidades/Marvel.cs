@@ -20,7 +20,7 @@ namespace Entidades
         {
             set
             {
-                Marvel.listaPersonajes = Marvel.listaPersonajes + (Personaje)value;
+                Marvel.listaPersonajes = Marvel.listaPersonajes + value;
             }
         }
         /// <summary>
@@ -30,18 +30,22 @@ namespace Entidades
         public static string MostrarInformacion()
         {
             StringBuilder sb = new StringBuilder();
-
             foreach(Personaje p in Marvel.listaPersonajes)
             {
-                if(p is Avenger)
+                //switch (p.GetType())
+                //{
+                //    case typeof(Avenger):
+                //        sb.AppendLine("****** AVENGER ******");
+                //        break;
+                //}
+                if (p is Avenger)
                 {
                     sb.AppendLine("****** AVENGER ******");
                 }
-                if (p is Enemigo)
+                else
                 {
                     sb.AppendLine("****** ENEMIGO ******");
                 }
-
                 sb.AppendLine(p.ToString());
             }
             return sb.ToString();
